@@ -2,7 +2,7 @@ class Customer
 
   attr_reader :name, :wallet, :age, :drunkenness
 
-  def initialize(name, wallet, age, drunkenness)
+  def initialize(name, wallet, age, drunkenness) #parameters
       @name = name
       @wallet = wallet
       @age = age

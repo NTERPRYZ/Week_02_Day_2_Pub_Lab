@@ -8,7 +8,7 @@ require_relative('../customer.rb')
 class TestPub < Minitest::Test
 
   def setup
-  @drink1 = Drink.new("Lager", 5, 20)
+  @drink1 = Drink.new("Lager", 5, 20)  #arguments
   @drink2 = Drink.new("Vodka", 10, 50)
   @drink3 = Drink.new("Jager", 1, 100)
   @chanter_drinks = [@drink1, @drink2, @drink3]
